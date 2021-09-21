@@ -1,0 +1,43 @@
+.main {
+    min-height: 80vh;
+}
+
+ul.nav {
+    width: 300px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+ul.nav a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-padding {
+    background-color: cyan;
+    padding: 20px;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    border-bottom: 1px dashed rgba(0, 0, 0, .2);
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    width: 33%;
+    margin-right: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group button {
+    align-self: end;
+}
